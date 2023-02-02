@@ -1,0 +1,102 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "principal",
+      "patterns": [
+        "who is principal"
+      ],
+      "responses": [
+        "Dr.Naveed Hussain"
+      ]
+    },
+    {
+      "tag": "departments",
+      "patterns": [
+        "which are branchs in collage"
+
+      ],
+      "responses": [
+        "Computer Engineering</br>Electrical Engineering</br>Mechanical Engineering</br>E&TC Engineering</br>Civil Engineering"
+      ]
+    },
+    {
+      "tag": "faculty",
+      "patterns": [
+        "about faculty",
+        "faculty"
+
+      ],
+      "responses": [
+        "Enter the name Of department"
+      ]
+    },
+    {
+      "tag": "2faculty",
+      "patterns": [
+        "Computer Department"
+
+      ],
+      "responses": [
+        "Dr.Salman Baig(HOD)</br>prof.Wasim Mir</br>prof.Nawaz Malla</br>prof.Wasim Ahmad</br>prof.Rashid Noor<"
+      ]
+    },
+    {
+      "tag": "timing",
+      "patterns": [
+        "time of collage",
+        "collage timing"
+
+      ],
+      "responses": [
+        "from</br>9:00 TO 4:00"
+      ]
+    },
+    {
+      "tag": "lab info",
+      "patterns": [
+        "where is the lab"
+      ],
+      "responses": [
+        "Which lab you are asking for ?"
+      ]
+    },
+    {
+      "tag": "about 2lab ",
+      "patterns": [  "Programming lab"
+      ],
+      "responses": [
+        "First flour"
+      ]
+    }
+  ]
+}
